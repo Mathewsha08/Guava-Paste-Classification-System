@@ -16,6 +16,30 @@ This system utilizes a USB webcam to detect, measure, and classify guava paste p
 * **Communication:** Modbus TCP protocol for real-time PLC interaction.
 * **Processing:** Python, OpenCV (HSV masking, contour analysis).
 
+
+## **ENVIRONMENT SETUP**
+
+To ensure all dependencies run correctly and do not interfere with other projects, it is highly recommended to use a Python virtual environment.
+
+### **1. CREATE THE VIRTUAL ENVIRONMENT**
+Open your terminal in the project folder and run:
+`python -m venv venv`
+
+### **2. ACTIVATE THE VIRTUAL ENVIRONMENT**
+Depending on your operating system, use the appropriate command:
+* **Windows:** `venv\Scripts\activate`
+* **macOS/Linux:** `source venv/bin/activate`
+
+*(Note: When activated, you should see `(venv)` at the beginning of your terminal line).*
+
+### **3. INSTALL DEPENDENCIES**
+With the virtual environment active, install all required libraries by running:
+`pip install -r requirements.txt`
+
+### **4. DEACTIVATE (WHEN FINISHED)**
+Once you are done working on the project, you can exit the virtual environment by typing:
+`deactivate`
+
 ---
 
 ## **CALIBRATION & SETUP GUIDE**
