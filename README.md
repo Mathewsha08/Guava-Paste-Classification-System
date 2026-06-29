@@ -1,23 +1,17 @@
-Guava Paste Classification System
+#Guava Paste Classification System#
 Automated industrial inspection system for guava paste quality control using computer vision and PLC integration.
 
-Project Overview
+##Project Overview##
 This system utilizes a USB webcam to detect, measure, and classify guava paste pieces on a conveyor belt. It integrates with a Delta AS200 PLC via the Modbus TCP protocol to trigger automated sorting based on dimensional analysis.  
-TXT
-+ 1
 
-System Architecture
+###System Architecture###
 Hardware: USB Webcam, Delta AS200 PLC, Industrial Conveyor.  
-TXT
 
 Communication: Modbus TCP protocol for real-time PLC interaction.  
-TXT
-+ 1
 
 Processing: Python, OpenCV (HSV masking, contour analysis).  
-TXT
 
-Calibration & Setup Guide
+##Calibration & Setup Guide##
 1. Lens Calibration (Fish-eye Removal)
 To ensure accurate measurements, the lens distortion must be removed using the chessboard technique.  
 PY
